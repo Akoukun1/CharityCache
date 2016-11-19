@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C17E2191102334EBB112E06 /* Pods_CharityCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */; };
 		530ACCAD1DE01D9F005C655A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCAC1DE01D9F005C655A /* AppDelegate.swift */; };
 		530ACCAF1DE01D9F005C655A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCAE1DE01D9F005C655A /* ViewController.swift */; };
 		530ACCB21DE01D9F005C655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530ACCB01DE01D9F005C655A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		530ACCA91DE01D9F005C655A /* CharityCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		530ACCAC1DE01D9F005C655A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		530ACCAE1DE01D9F005C655A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		530ACCB61DE01D9F005C655A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530ACCB91DE01D9F005C655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		530ACCBB1DE01D9F005C655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.release.xcconfig"; sourceTree = "<group>"; };
+		E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C17E2191102334EBB112E06 /* Pods_CharityCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				530ACCAB1DE01D9F005C655A /* CharityCache */,
 				530ACCAA1DE01D9F005C655A /* Products */,
+				B61D2CFF4CEC6579921B29EC /* Pods */,
+				8D5D12ED73E6942471B78874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = CharityCache;
 			sourceTree = "<group>";
 		};
+		8D5D12ED73E6942471B78874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61D2CFF4CEC6579921B29EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */,
+				6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 530ACCBE1DE01D9F005C655A /* Build configuration list for PBXNativeTarget "CharityCache" */;
 			buildPhases = (
+				66480A1CAB7EE4E11C6EE4FA /* [CP] Check Pods Manifest.lock */,
 				530ACCA51DE01D9F005C655A /* Sources */,
 				530ACCA61DE01D9F005C655A /* Frameworks */,
 				530ACCA71DE01D9F005C655A /* Resources */,
+				2FFF3E1D75480C2898B6DE14 /* [CP] Embed Pods Frameworks */,
+				3090CB6B0A9E3805C1BFD7EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FFF3E1D75480C2898B6DE14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3090CB6B0A9E3805C1BFD7EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66480A1CAB7EE4E11C6EE4FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		530ACCA51DE01D9F005C655A /* Sources */ = {
@@ -251,6 +326,7 @@
 		};
 		530ACCBF1DE01D9F005C655A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CharityCache/Info.plist;
@@ -262,6 +338,7 @@
 		};
 		530ACCC01DE01D9F005C655A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CharityCache/Info.plist;
