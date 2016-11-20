@@ -7,17 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C17E2191102334EBB112E06 /* Pods_CharityCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */; };
+		5309EA371DE0E2DA0049C42F /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5309EA361DE0E2DA0049C42F /* CollectionViewFlowLayout.swift */; };
+		5309EA391DE0E3E90049C42F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5309EA381DE0E3E90049C42F /* CategoryViewController.swift */; };
+		5309EA3B1DE0E5FD0049C42F /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5309EA3A1DE0E5FD0049C42F /* CategoryCollectionViewCell.swift */; };
+		5309EA441DE0EC2E0049C42F /* electronics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA3D1DE0EC2E0049C42F /* electronics.jpg */; };
+		5309EA451DE0EC2E0049C42F /* drinks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA3E1DE0EC2E0049C42F /* drinks.jpg */; };
+		5309EA461DE0EC2E0049C42F /* spa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA3F1DE0EC2E0049C42F /* spa.jpg */; };
+		5309EA471DE0EC2E0049C42F /* travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA401DE0EC2E0049C42F /* travel.jpg */; };
+		5309EA481DE0EC2E0049C42F /* automobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA411DE0EC2E0049C42F /* automobile.png */; };
+		5309EA491DE0EC2E0049C42F /* fitness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA421DE0EC2E0049C42F /* fitness.jpg */; };
+		5309EA4A1DE0EC2E0049C42F /* apparel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5309EA431DE0EC2E0049C42F /* apparel.jpg */; };
+		5309EA4C1DE0FC630049C42F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5309EA4B1DE0FC630049C42F /* CoreLocation.framework */; };
 		530ACCAD1DE01D9F005C655A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCAC1DE01D9F005C655A /* AppDelegate.swift */; };
 		530ACCAF1DE01D9F005C655A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCAE1DE01D9F005C655A /* ViewController.swift */; };
 		530ACCB21DE01D9F005C655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530ACCB01DE01D9F005C655A /* Main.storyboard */; };
 		530ACCB51DE01D9F005C655A /* CharityCache.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCB31DE01D9F005C655A /* CharityCache.xcdatamodeld */; };
 		530ACCB71DE01D9F005C655A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530ACCB61DE01D9F005C655A /* Assets.xcassets */; };
 		530ACCBA1DE01D9F005C655A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530ACCB81DE01D9F005C655A /* LaunchScreen.storyboard */; };
+		530ACCC41DE02945005C655A /* CharityCache.png in Resources */ = {isa = PBXBuildFile; fileRef = 530ACCC31DE02945005C655A /* CharityCache.png */; };
+		530ACCC61DE02DA6005C655A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCC51DE02DA6005C655A /* RegisterViewController.swift */; };
+		530ACCC81DE02FD6005C655A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530ACCC71DE02FD6005C655A /* MapViewController.swift */; };
+		530ACCCA1DE03144005C655A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530ACCC91DE03144005C655A /* MapKit.framework */; };
+		D5B875BE3ED3FB4A5263DE06 /* Pods_CharityCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029EF7054495EED9D4D2A124 /* Pods_CharityCache.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		029EF7054495EED9D4D2A124 /* Pods_CharityCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharityCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5309EA361DE0E2DA0049C42F /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		5309EA381DE0E3E90049C42F /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		5309EA3A1DE0E5FD0049C42F /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5309EA3D1DE0EC2E0049C42F /* electronics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = electronics.jpg; sourceTree = "<group>"; };
+		5309EA3E1DE0EC2E0049C42F /* drinks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drinks.jpg; sourceTree = "<group>"; };
+		5309EA3F1DE0EC2E0049C42F /* spa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spa.jpg; sourceTree = "<group>"; };
+		5309EA401DE0EC2E0049C42F /* travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel.jpg; sourceTree = "<group>"; };
+		5309EA411DE0EC2E0049C42F /* automobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = automobile.png; sourceTree = "<group>"; };
+		5309EA421DE0EC2E0049C42F /* fitness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fitness.jpg; sourceTree = "<group>"; };
+		5309EA431DE0EC2E0049C42F /* apparel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apparel.jpg; sourceTree = "<group>"; };
+		5309EA4B1DE0FC630049C42F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		530ACCA91DE01D9F005C655A /* CharityCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		530ACCAC1DE01D9F005C655A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		530ACCAE1DE01D9F005C655A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +52,12 @@
 		530ACCB61DE01D9F005C655A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530ACCB91DE01D9F005C655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		530ACCBB1DE01D9F005C655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.release.xcconfig"; sourceTree = "<group>"; };
-		E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.debug.xcconfig"; sourceTree = "<group>"; };
+		530ACCC31DE02945005C655A /* CharityCache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CharityCache.png; sourceTree = "<group>"; };
+		530ACCC51DE02DA6005C655A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		530ACCC71DE02FD6005C655A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		530ACCC91DE03144005C655A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB0C120333629F8C4D26381D /* Pods-CharityCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.release.xcconfig"; sourceTree = "<group>"; };
+		CD9BEFCE84C80ED50F1C3C4E /* Pods-CharityCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharityCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +65,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C17E2191102334EBB112E06 /* Pods_CharityCache.framework in Frameworks */,
+				5309EA4C1DE0FC630049C42F /* CoreLocation.framework in Frameworks */,
+				530ACCCA1DE03144005C655A /* MapKit.framework in Frameworks */,
+				D5B875BE3ED3FB4A5263DE06 /* Pods_CharityCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5309EA331DE0DFBF0049C42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530ACCC91DE03144005C655A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5309EA341DE0DFD50049C42F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				530ACCAE1DE01D9F005C655A /* ViewController.swift */,
+				530ACCC51DE02DA6005C655A /* RegisterViewController.swift */,
+				530ACCC71DE02FD6005C655A /* MapViewController.swift */,
+				5309EA361DE0E2DA0049C42F /* CollectionViewFlowLayout.swift */,
+				5309EA381DE0E3E90049C42F /* CategoryViewController.swift */,
+				5309EA3A1DE0E5FD0049C42F /* CategoryCollectionViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5309EA351DE0DFDE0049C42F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				530ACCB01DE01D9F005C655A /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		5309EA3C1DE0EC160049C42F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5309EA3D1DE0EC2E0049C42F /* electronics.jpg */,
+				5309EA3E1DE0EC2E0049C42F /* drinks.jpg */,
+				5309EA3F1DE0EC2E0049C42F /* spa.jpg */,
+				5309EA401DE0EC2E0049C42F /* travel.jpg */,
+				5309EA411DE0EC2E0049C42F /* automobile.png */,
+				5309EA421DE0EC2E0049C42F /* fitness.jpg */,
+				5309EA431DE0EC2E0049C42F /* apparel.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		530ACCA01DE01D9F005C655A = {
 			isa = PBXGroup;
 			children = (
 				530ACCAB1DE01D9F005C655A /* CharityCache */,
 				530ACCAA1DE01D9F005C655A /* Products */,
-				B61D2CFF4CEC6579921B29EC /* Pods */,
-				8D5D12ED73E6942471B78874 /* Frameworks */,
+				CFFDBA9506C66E848E04C046 /* Pods */,
+				954A7A5C00F8B5E566177421 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,9 +138,12 @@
 		530ACCAB1DE01D9F005C655A /* CharityCache */ = {
 			isa = PBXGroup;
 			children = (
+				5309EA3C1DE0EC160049C42F /* Images */,
+				5309EA351DE0DFDE0049C42F /* StoryBoards */,
+				5309EA341DE0DFD50049C42F /* Controllers */,
+				5309EA331DE0DFBF0049C42F /* Frameworks */,
 				530ACCAC1DE01D9F005C655A /* AppDelegate.swift */,
-				530ACCAE1DE01D9F005C655A /* ViewController.swift */,
-				530ACCB01DE01D9F005C655A /* Main.storyboard */,
+				530ACCC31DE02945005C655A /* CharityCache.png */,
 				530ACCB61DE01D9F005C655A /* Assets.xcassets */,
 				530ACCB81DE01D9F005C655A /* LaunchScreen.storyboard */,
 				530ACCBB1DE01D9F005C655A /* Info.plist */,
@@ -74,19 +152,20 @@
 			path = CharityCache;
 			sourceTree = "<group>";
 		};
-		8D5D12ED73E6942471B78874 /* Frameworks */ = {
+		954A7A5C00F8B5E566177421 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0106A2DF9C627EEB1D06654C /* Pods_CharityCache.framework */,
+				5309EA4B1DE0FC630049C42F /* CoreLocation.framework */,
+				029EF7054495EED9D4D2A124 /* Pods_CharityCache.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B61D2CFF4CEC6579921B29EC /* Pods */ = {
+		CFFDBA9506C66E848E04C046 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */,
-				6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */,
+				CD9BEFCE84C80ED50F1C3C4E /* Pods-CharityCache.debug.xcconfig */,
+				BB0C120333629F8C4D26381D /* Pods-CharityCache.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,12 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 530ACCBE1DE01D9F005C655A /* Build configuration list for PBXNativeTarget "CharityCache" */;
 			buildPhases = (
-				66480A1CAB7EE4E11C6EE4FA /* [CP] Check Pods Manifest.lock */,
+				3A33E514E710C75119AFC5F7 /* [CP] Check Pods Manifest.lock */,
 				530ACCA51DE01D9F005C655A /* Sources */,
 				530ACCA61DE01D9F005C655A /* Frameworks */,
 				530ACCA71DE01D9F005C655A /* Resources */,
-				2FFF3E1D75480C2898B6DE14 /* [CP] Embed Pods Frameworks */,
-				3090CB6B0A9E3805C1BFD7EC /* [CP] Copy Pods Resources */,
+				3D9BD524E5E58FB236E31F1F /* [CP] Embed Pods Frameworks */,
+				DE78A0C239640FA94148D577 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +205,7 @@
 				TargetAttributes = {
 					530ACCA81DE01D9F005C655A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -152,46 +232,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5309EA491DE0EC2E0049C42F /* fitness.jpg in Resources */,
+				5309EA481DE0EC2E0049C42F /* automobile.png in Resources */,
+				5309EA4A1DE0EC2E0049C42F /* apparel.jpg in Resources */,
+				5309EA451DE0EC2E0049C42F /* drinks.jpg in Resources */,
 				530ACCBA1DE01D9F005C655A /* LaunchScreen.storyboard in Resources */,
 				530ACCB71DE01D9F005C655A /* Assets.xcassets in Resources */,
 				530ACCB21DE01D9F005C655A /* Main.storyboard in Resources */,
+				5309EA461DE0EC2E0049C42F /* spa.jpg in Resources */,
+				5309EA441DE0EC2E0049C42F /* electronics.jpg in Resources */,
+				530ACCC41DE02945005C655A /* CharityCache.png in Resources */,
+				5309EA471DE0EC2E0049C42F /* travel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FFF3E1D75480C2898B6DE14 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3090CB6B0A9E3805C1BFD7EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66480A1CAB7EE4E11C6EE4FA /* [CP] Check Pods Manifest.lock */ = {
+		3A33E514E710C75119AFC5F7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +264,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		3D9BD524E5E58FB236E31F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE78A0C239640FA94148D577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharityCache/Pods-CharityCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5309EA3B1DE0E5FD0049C42F /* CategoryCollectionViewCell.swift in Sources */,
+				5309EA371DE0E2DA0049C42F /* CollectionViewFlowLayout.swift in Sources */,
 				530ACCB51DE01D9F005C655A /* CharityCache.xcdatamodeld in Sources */,
+				5309EA391DE0E3E90049C42F /* CategoryViewController.swift in Sources */,
 				530ACCAF1DE01D9F005C655A /* ViewController.swift in Sources */,
 				530ACCAD1DE01D9F005C655A /* AppDelegate.swift in Sources */,
+				530ACCC81DE02FD6005C655A /* MapViewController.swift in Sources */,
+				530ACCC61DE02DA6005C655A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,25 +419,27 @@
 		};
 		530ACCBF1DE01D9F005C655A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E26B565AE7842A62D31483F8 /* Pods-CharityCache.debug.xcconfig */;
+			baseConfigurationReference = CD9BEFCE84C80ED50F1C3C4E /* Pods-CharityCache.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CharityCache/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jbhunt.test.CharityCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		530ACCC01DE01D9F005C655A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6877967891A91735703DC852 /* Pods-CharityCache.release.xcconfig */;
+			baseConfigurationReference = BB0C120333629F8C4D26381D /* Pods-CharityCache.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CharityCache/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jbhunt.test.CharityCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -367,6 +462,7 @@
 				530ACCC01DE01D9F005C655A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
